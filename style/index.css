@@ -5,3 +5,20 @@
   #footer a{
     color: #FFFFFF;
   }
+
+  
+.encabezado{
+  text-decoration:none;
+  background-color:#48e8f3;
+  border-color: #d8d8d8;
+  border-style: solid;
+  border-radius:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  
+}
+
+.encabezado:hover{
+  background-color:#11ddbb;
+ 
+}
