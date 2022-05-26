@@ -1,4 +1,4 @@
-import { CanvasLocal } from './canvasLocal.js'; 
+import { CanvasLocal } from './canvas.js';
 import { Point2D } from './point2D.js';
 import { Obj } from './obj.js'; 
 
