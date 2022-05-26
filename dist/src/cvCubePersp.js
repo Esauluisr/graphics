@@ -13,8 +13,8 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-import { CanvasLocal } from './canvasLocal.js';
 import { Obj } from "./obj.js";
+import { CanvasLocal } from './CanvasLocal.js';
 var CvCubePersp = /** @class */ (function (_super) {
     __extends(CvCubePersp, _super);
     function CvCubePersp(g, canvas) {
