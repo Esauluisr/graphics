@@ -145,7 +145,7 @@ function makeVizualization(evento) {
           //cv.redibuja(theta, phi, tamanoObjeto);
           Piy=Pfy;
         }
-    
+        
         if(Pfy>Piy+1){
           phi -= SensibilidadY;
           vp(0,-0.1, 1);

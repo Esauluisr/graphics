@@ -1,11 +1,10 @@
-
 //import { Input } from './Input.js';
 import { Obj3D } from './Obj3D.js';
 //import { Canvas3D } from './Canvas3D.js';
 //import { CvWireframe } from './CvWireFrame.js';
 import { CvHLines } from './CvHLines.js';
 import { Rota3D } from './Rota3D.js';
-import { Point3D } from './Point3D.js';
+import { Point3D } from './point3D.js';
 
 let canvas: HTMLCanvasElement;
 let graphics: CanvasRenderingContext2D;
@@ -175,7 +174,7 @@ function makeVizualization(evento: any) {
       //cv.redibuja(theta, phi, tamanoObjeto);
       Piy=Pfy;
     }
-
+    
     if(Pfy>Piy+1){
       phi -= SensibilidadY;
       vp(0,-0.1, 1);
